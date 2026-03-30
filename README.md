@@ -9,6 +9,6 @@ Short paragraph explaining the contents of the respository in executive form. Pr
 | NetID | vcx4ka |
 | DOI | create a DOI for your project |
 | Press Release | link to press release |
-| Data | link to data folder |
+| Data | [UVA OneDrive Data Folder](https://myuva-my.sharepoint.com/:f:/g/personal/vcx4ka_virginia_edu/IgDkm3bSO4ddRrfrgJUvnP2FAUqjbqvWw-wTniDpR0DB21k?e=5u9Tzg) |
 | Pipeline | link to pipeline files |
 | License State | name of license here and link to the file in the top level of the repository (use normal GitHub conventions) |
