@@ -1,0 +1,8 @@
+duckdb
+pandas
+os
+logging
+numpy
+matplotlib
+seaborn
+scikit-learn
