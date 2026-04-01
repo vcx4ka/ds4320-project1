@@ -1,0 +1,283 @@
+2026-03-31 20:43:26,820 [INFO] Starting solution pipeline...
+2026-03-31 20:43:30,211 [INFO] Starting data preparation step.
+2026-03-31 20:43:30,222 [INFO] Successfully connected to DB. Creating data tables next.
+2026-03-31 20:43:30,359 [INFO] Table 'players' created with 11060 records.
+2026-03-31 20:43:30,391 [INFO] Table 'matches' created with 25979 records.
+2026-03-31 20:43:32,071 [INFO] Table 'player_match_stats' created with 545538 records.
+2026-03-31 20:43:33,418 [INFO] Table 'performance' created with 545538 records.
+2026-03-31 20:44:07,888 [INFO] Starting data preparation step.
+2026-03-31 20:44:07,895 [INFO] Successfully connected to DB. Creating data tables next.
+2026-03-31 20:44:07,954 [INFO] Table 'players' created with 11060 records.
+2026-03-31 20:44:07,984 [INFO] Table 'matches' created with 25979 records.
+2026-03-31 20:44:09,916 [INFO] Table 'player_match_stats' created with 545538 records.
+2026-03-31 20:44:11,352 [INFO] Table 'performance' created with 545538 records.
+2026-03-31 20:44:11,354 [INFO] Data preparation step complete. All tables created successfully.
+
+2026-03-31 20:45:43,212 [INFO] Starting data preparation step.
+2026-03-31 20:45:43,218 [INFO] Successfully connected to DB. Creating data tables next.
+2026-03-31 20:45:43,269 [INFO] Table 'players' created with 11060 records.
+2026-03-31 20:45:43,305 [INFO] Table 'matches' created with 25979 records.
+2026-03-31 20:45:45,075 [INFO] Table 'player_match_stats' created with 545538 records.
+2026-03-31 20:45:46,698 [INFO] Table 'performance' created with 545538 records.
+2026-03-31 20:45:46,837 [INFO] Data preparation step complete. All tables created successfully.
+
+2026-03-31 20:45:56,849 [INFO] Starting data preparation step.
+2026-03-31 20:45:56,854 [INFO] Successfully connected to DB. Creating data tables next.
+2026-03-31 20:45:56,919 [INFO] Table 'players' created with 11060 records.
+2026-03-31 20:45:56,962 [INFO] Table 'matches' created with 25979 records.
+2026-03-31 20:45:58,621 [INFO] Table 'player_match_stats' created with 545538 records.
+2026-03-31 20:46:00,147 [INFO] Table 'performance' created with 545538 records.
+2026-03-31 20:46:00,160 [INFO] Data preparation step complete. All tables created successfully.
+
+2026-03-31 20:54:36,292 [INFO] Starting data preparation step.
+2026-03-31 20:54:36,297 [INFO] Successfully connected to DB. Creating data tables next.
+2026-03-31 20:54:37,483 [INFO] Data preparation step complete. All tables created successfully.
+
+2026-03-31 20:56:24,303 [INFO] Starting data preparation step.
+2026-03-31 20:56:24,307 [INFO] Successfully connected to DB. Creating data tables next.
+2026-03-31 20:56:25,007 [INFO] Data preparation step complete. All tables created successfully.
+
+2026-03-31 21:08:06,649 [INFO] Starting data preparation step.
+2026-03-31 21:08:06,655 [INFO] Successfully connected to DB. Creating data tables next.
+2026-03-31 21:08:07,489 [INFO] Table 'players' created with 11060 records.
+2026-03-31 21:08:08,686 [INFO] Table 'matches' created with 25979 records.
+2026-03-31 21:08:11,602 [INFO] Table 'player_match_stats' created with 545538 records.
+2026-03-31 21:08:14,334 [INFO] Table 'performance' created with 545538 records.
+2026-03-31 21:08:14,351 [INFO] Data preparation step complete. All tables created successfully.
+
+2026-04-01 07:30:25,592 [INFO] Starting solution pipeline...
+2026-04-01 07:30:48,168 [INFO] Starting solution pipeline...
+2026-04-01 07:31:09,421 [INFO] Starting solution pipeline...
+2026-04-01 07:31:13,803 [INFO] Starting data preparation step.
+2026-04-01 07:31:13,867 [INFO] Successfully connected to DB. Creating data tables next.
+2026-04-01 07:31:16,208 [INFO] Table 'players' created with 11060 records.
+2026-04-01 07:31:16,787 [INFO] Table 'matches' created with 25979 records.
+2026-04-01 07:31:20,124 [INFO] Table 'player_match_stats' created with 545538 records.
+2026-04-01 07:31:22,949 [INFO] Table 'performance' created with 545538 records.
+2026-04-01 07:31:23,049 [INFO] Data preparation step complete. All tables created successfully.
+
+2026-04-01 07:55:46,759 [INFO] Starting model training and evaluation...
+2026-04-01 07:55:46,762 [INFO] Training Random Forest model
+2026-04-01 07:56:17,907 [INFO] Accuracy: 1.0000
+2026-04-01 07:56:17,909 [INFO] ROC-AUC: 0.7652
+2026-04-01 07:56:17,912 [INFO] Training Gradient Boosting model
+2026-04-01 08:02:51,340 [INFO] Accuracy: 1.0000
+2026-04-01 08:02:51,342 [INFO] ROC-AUC: 0.9248
+2026-04-01 08:02:51,344 [INFO] Training Logistic Regression model
+2026-04-01 08:02:52,675 [INFO] Accuracy: 1.0000
+2026-04-01 08:02:52,678 [INFO] ROC-AUC: 0.9329
+2026-04-01 08:04:27,023 [INFO] Performing cross-validation for each model.
+2026-04-01 08:06:06,471 [INFO] 
+Random Forest:
+  CV ROC-AUC Scores: [0.75118628 0.75646311 0.76361478 0.75880116 0.76684439]
+  Mean CV ROC-AUC: 0.7594 (+/- 0.0109)
+2026-04-01 08:17:23,348 [INFO] Splitting data into train and test sets.
+2026-04-01 08:17:25,051 [INFO] Scaling features and initializing models.
+2026-04-01 08:17:26,333 [INFO] Starting model training and evaluation...
+2026-04-01 08:17:26,338 [INFO] Training Random Forest model
+2026-04-01 08:17:54,118 [INFO]    Accuracy: 1.0000
+2026-04-01 08:17:54,119 [INFO]    ROC-AUC: 0.7652
+2026-04-01 08:17:54,121 [INFO] Training Gradient Boosting model
+2026-04-01 08:24:10,861 [INFO]    Accuracy: 1.0000
+2026-04-01 08:24:10,863 [INFO]    ROC-AUC: 0.9248
+2026-04-01 08:24:10,864 [INFO] Training Logistic Regression model
+2026-04-01 08:24:12,033 [INFO]    Accuracy: 1.0000
+2026-04-01 08:24:12,034 [INFO]    ROC-AUC: 0.9329
+2026-04-01 08:25:01,837 [INFO] Performing cross-validation for each model.
+2026-04-01 08:25:26,583 [INFO] Performing cross-validation for each model.
+2026-04-01 08:26:25,303 [INFO] 
+Random Forest:
+  CV ROC-AUC Scores: [0.75270473 0.76080121 0.7584744 ]
+  Mean CV ROC-AUC: 0.7573 (+/- 0.0068)
+2026-04-01 08:31:13,180 [INFO] 
+Gradient Boosting:
+  CV ROC-AUC Scores: [0.91395069 0.91913543 0.91892095]
+  Mean CV ROC-AUC: 0.9173 (+/- 0.0048)
+2026-04-01 08:31:16,300 [INFO] 
+Logistic Regression:
+  CV ROC-AUC Scores: [0.93492698 0.93678544 0.93150174]
+  Mean CV ROC-AUC: 0.9344 (+/- 0.0044)
+2026-04-01 08:32:38,857 [INFO] 
+Best Performing Model: Logistic Regression 
+   Test ROC-AUC: 0.9329 
+   Cross-Validation Mean ROC-AUC: 0.9344
+2026-04-01 08:34:23,344 [INFO] 
+Best Performing Model: Logistic Regression 
+   Test ROC-AUC: 0.9329 
+   Cross-Validation Mean ROC-AUC: 0.9344
+2026-04-01 08:39:13,570 [INFO] 
+Best Performing Model: Logistic Regression 
+   Test ROC-AUC: 0.9329 
+   Cross-Validation Mean ROC-AUC: 0.9344
+2026-04-01 08:57:38,268 [INFO] Starting solution pipeline...
+2026-04-01 08:57:40,443 [INFO] Starting data preparation step.
+2026-04-01 08:57:40,516 [INFO] Successfully connected to DB. Creating data tables next.
+2026-04-01 08:57:41,328 [INFO] Table 'players' created with 11060 records.
+2026-04-01 08:57:41,942 [INFO] Table 'matches' created with 25979 records.
+2026-04-01 08:57:46,182 [INFO] Table 'player_match_stats' created with 545538 records.
+2026-04-01 08:57:49,743 [INFO] Table 'performance' created with 545538 records.
+2026-04-01 08:57:49,803 [INFO] Data preparation step complete. All tables created successfully.
+
+2026-04-01 08:57:55,451 [INFO] Preparing features and target variable for modeling.
+2026-04-01 08:57:55,840 [INFO] Splitting data into train and test sets.
+2026-04-01 08:57:56,557 [INFO] Scaling features and initializing models.
+2026-04-01 08:57:56,928 [INFO] Starting model training and evaluation...
+2026-04-01 08:57:56,931 [INFO] Training Random Forest model
+2026-04-01 08:58:23,443 [INFO]    Accuracy: 1.0000
+2026-04-01 08:58:23,444 [INFO]    ROC-AUC: 0.7652
+2026-04-01 08:58:23,447 [INFO] Training Gradient Boosting model
+2026-04-01 09:02:13,513 [INFO] Starting solution pipeline...
+2026-04-01 09:02:14,784 [INFO] Starting data preparation step.
+2026-04-01 09:02:14,791 [INFO] Successfully connected to DB. Creating data tables next.
+2026-04-01 09:02:15,439 [INFO] Table 'players' created with 11060 records.
+2026-04-01 09:02:16,113 [INFO] Table 'matches' created with 25979 records.
+2026-04-01 09:02:23,603 [INFO] Table 'player_match_stats' created with 545538 records.
+2026-04-01 09:02:26,661 [INFO] Table 'performance' created with 545538 records.
+2026-04-01 09:02:26,676 [INFO] Data preparation step complete. All tables created successfully.
+
+2026-04-01 09:03:17,921 [INFO] Preparing features and target variable for modeling.
+2026-04-01 09:05:18,111 [INFO] Splitting data into train and test sets.
+2026-04-01 09:05:33,318 [INFO] Scaling features and initializing models.
+2026-04-01 09:06:03,388 [INFO] Starting model training and evaluation...
+2026-04-01 09:06:03,392 [INFO] Training Random Forest model
+2026-04-01 09:06:27,201 [INFO]    Accuracy: 1.0000
+2026-04-01 09:06:27,204 [INFO]    ROC-AUC: 0.7544
+2026-04-01 09:06:27,206 [INFO] Training Gradient Boosting model
+2026-04-01 09:12:29,661 [INFO]    Accuracy: 1.0000
+2026-04-01 09:12:29,664 [INFO]    ROC-AUC: 0.9157
+2026-04-01 09:12:29,666 [INFO] Training Logistic Regression model
+2026-04-01 09:12:31,888 [INFO]    Accuracy: 1.0000
+2026-04-01 09:12:31,892 [INFO]    ROC-AUC: 0.9377
+2026-04-01 09:13:09,834 [INFO] Performing cross-validation for each model.
+2026-04-01 09:13:57,535 [INFO] 
+Random Forest:
+  CV ROC-AUC Scores: [0.75243774 0.74193752 0.74469968]
+  Mean CV ROC-AUC: 0.7464 (+/- 0.0089)
+2026-04-01 09:18:14,010 [INFO] 
+Gradient Boosting:
+  CV ROC-AUC Scores: [0.90084793 0.90932262 0.90524729]
+  Mean CV ROC-AUC: 0.9051 (+/- 0.0069)
+2026-04-01 09:18:19,262 [INFO] 
+Logistic Regression:
+  CV ROC-AUC Scores: [0.93384298 0.93141565 0.93365977]
+  Mean CV ROC-AUC: 0.9330 (+/- 0.0022)
+2026-04-01 09:18:19,303 [INFO] 
+Best Performing Model: Logistic Regression 
+   Test ROC-AUC: 0.9377 
+   Cross-Validation Mean ROC-AUC: 0.9330
+2026-04-01 09:24:12,999 [INFO] Performing cross-validation for each model.
+2026-04-01 09:24:20,040 [INFO] Starting solution pipeline...
+2026-04-01 09:24:20,078 [INFO] Starting data preparation step.
+2026-04-01 09:24:20,084 [INFO] Successfully connected to DB. Creating data tables next.
+2026-04-01 09:24:20,699 [INFO] Table 'players' created with 11060 records.
+2026-04-01 09:24:21,375 [INFO] Table 'matches' created with 25979 records.
+2026-04-01 09:24:24,622 [INFO] Table 'player_match_stats' created with 545538 records.
+2026-04-01 09:24:33,147 [INFO] Starting solution pipeline...
+2026-04-01 09:24:35,216 [INFO] Starting data preparation step.
+2026-04-01 09:24:35,285 [INFO] Successfully connected to DB. Creating data tables next.
+2026-04-01 09:24:35,961 [INFO] Table 'players' created with 11060 records.
+2026-04-01 09:24:36,438 [INFO] Table 'matches' created with 25979 records.
+2026-04-01 09:24:39,804 [INFO] Table 'player_match_stats' created with 545538 records.
+2026-04-01 09:24:42,758 [INFO] Table 'performance' created with 545538 records.
+2026-04-01 09:24:42,812 [INFO] Data preparation step complete. All tables created successfully.
+
+2026-04-01 09:24:47,838 [INFO] Preparing features and target variable for modeling.
+2026-04-01 09:24:48,374 [INFO] Splitting data into train and test sets.
+2026-04-01 09:24:49,376 [INFO] Scaling features and initializing models.
+2026-04-01 09:24:49,852 [INFO] Starting model training and evaluation...
+2026-04-01 09:24:49,857 [INFO] Training Random Forest model
+2026-04-01 09:25:13,248 [INFO]    Accuracy: 1.0000
+2026-04-01 09:25:13,250 [INFO]    ROC-AUC: 0.7541
+2026-04-01 09:25:13,253 [INFO] Training Gradient Boosting model
+2026-04-01 09:30:43,851 [INFO]    Accuracy: 1.0000
+2026-04-01 09:30:43,854 [INFO]    ROC-AUC: 0.9176
+2026-04-01 09:30:43,855 [INFO] Training Logistic Regression model
+2026-04-01 09:30:46,145 [INFO]    Accuracy: 1.0000
+2026-04-01 09:30:46,148 [INFO]    ROC-AUC: 0.9382
+2026-04-01 09:30:46,418 [INFO] Performing cross-validation for each model.
+2026-04-01 09:31:34,303 [INFO] 
+Random Forest:
+  CV ROC-AUC Scores: [0.74473147 0.75017722 0.74676546]
+  Mean CV ROC-AUC: 0.7472 (+/- 0.0045)
+2026-04-01 09:33:56,716 [INFO] Starting solution pipeline...
+2026-04-01 09:33:59,009 [INFO] Starting data preparation step.
+2026-04-01 09:33:59,205 [INFO] Successfully connected to DB. Creating data tables next.
+2026-04-01 09:33:59,959 [INFO] Table 'players' created with 11060 records.
+2026-04-01 09:34:00,514 [INFO] Table 'matches' created with 25979 records.
+2026-04-01 09:34:04,274 [INFO] Table 'player_match_stats' created with 545538 records.
+2026-04-01 09:34:07,028 [INFO] Table 'performance' created with 545538 records.
+2026-04-01 09:34:07,083 [INFO] Data preparation step complete. All tables created successfully.
+
+2026-04-01 09:34:12,243 [INFO] Preparing features and target variable for modeling.
+2026-04-01 09:34:12,725 [INFO] Splitting data into train and test sets.
+2026-04-01 09:34:13,281 [INFO] Scaling features and initializing models.
+2026-04-01 09:34:13,640 [INFO] Starting model training and evaluation...
+2026-04-01 09:34:13,644 [INFO] Training Random Forest model
+2026-04-01 09:34:38,706 [INFO]    Accuracy: 1.0000
+2026-04-01 09:34:38,710 [INFO]    ROC-AUC: 0.7580
+2026-04-01 09:34:38,713 [INFO] Training Gradient Boosting model
+2026-04-01 09:40:25,448 [INFO]    Accuracy: 1.0000
+2026-04-01 09:40:25,451 [INFO]    ROC-AUC: 0.9163
+2026-04-01 09:40:25,454 [INFO] Training Logistic Regression model
+2026-04-01 09:40:27,647 [INFO]    Accuracy: 1.0000
+2026-04-01 09:40:27,649 [INFO]    ROC-AUC: 0.9336
+2026-04-01 09:40:28,193 [INFO] Performing cross-validation for each model.
+2026-04-01 09:41:15,080 [INFO] 
+Random Forest:
+  CV ROC-AUC Scores: [0.74131224 0.75118673 0.74330761]
+  Mean CV ROC-AUC: 0.7453 (+/- 0.0085)
+2026-04-01 09:45:17,213 [INFO] 
+Gradient Boosting:
+  CV ROC-AUC Scores: [0.90368763 0.91006469 0.90520882]
+  Mean CV ROC-AUC: 0.9063 (+/- 0.0054)
+2026-04-01 09:45:23,857 [INFO] 
+Logistic Regression:
+  CV ROC-AUC Scores: [0.93517653 0.93465703 0.9331799 ]
+  Mean CV ROC-AUC: 0.9343 (+/- 0.0017)
+2026-04-01 09:45:23,898 [INFO] 
+Best Performing Model: Logistic Regression 
+   Test ROC-AUC: 0.9336 
+   Cross-Validation Mean ROC-AUC: 0.9343
+2026-04-01 09:45:23,910 [INFO] 
+Top 5 Feature Coefficients:
+2026-04-01 09:45:23,913 [INFO]          feature  coefficient
+1  rolling_avg_3    37.377971
+5      dribbling     0.264348
+3         rating     0.140951
+6        passing     0.078573
+7         height     0.066992
+2026-04-01 09:45:24,598 [INFO] Feature importances/coefficients plot generated and saved as feature_importances-coefficients.png in plots/
+2026-04-01 09:46:32,011 [INFO] ROC curve plot generated and saved as model_comparison_roc_curves.png in plots/
+2026-04-01 09:46:43,187 [INFO] ROC curve plot generated and saved as model_comparison_roc_curves.png in plots/
+2026-04-01 09:46:51,246 [INFO] ROC curve plot generated and saved as model_comparison_roc_curves.png in plots/
+2026-04-01 09:46:58,991 [INFO] ROC curve plot generated and saved as model_comparison_roc_curves.png in plots/
+2026-04-01 09:47:12,153 [INFO] ROC curve plot generated and saved as model_comparison_roc_curves.png in plots/
+2026-04-01 09:47:24,742 [INFO] ROC curve plot generated and saved as model_comparison_roc_curves.png in plots/
+2026-04-01 09:47:32,152 [INFO] ROC curve plot generated and saved as model_comparison_roc_curves.png in plots/
+2026-04-01 09:47:42,584 [INFO] ROC curve plot generated and saved as model_comparison_roc_curves.png in plots/
+2026-04-01 09:48:05,860 [INFO] 
+Best Performing Model: Logistic Regression 
+   Test ROC-AUC: 0.9336 
+   Cross-Validation Mean ROC-AUC: 0.9343
+2026-04-01 09:48:05,869 [INFO] 
+Top 5 Feature Coefficients:
+2026-04-01 09:48:05,875 [INFO]          feature  coefficient
+1  rolling_avg_3    37.377971
+5      dribbling     0.264348
+3         rating     0.140951
+6        passing     0.078573
+7         height     0.066992
+2026-04-01 09:48:06,657 [INFO] Feature importances/coefficients plot generated and saved as feature_importances-coefficients.png in plots/
+2026-04-01 09:48:16,996 [INFO] 
+Best Performing Model: Logistic Regression 
+   Test ROC-AUC: 0.9336 
+   Cross-Validation Mean ROC-AUC: 0.9343
+2026-04-01 09:48:17,003 [INFO] 
+Top 5 Feature Coefficients:
+2026-04-01 09:48:17,006 [INFO]          feature  coefficient
+1  rolling_avg_3    37.377971
+5      dribbling     0.264348
+3         rating     0.140951
+6        passing     0.078573
+7         height     0.066992
+2026-04-01 09:48:17,648 [INFO] Feature importances/coefficients plot generated and saved as feature_importances-coefficients.png in plots/
