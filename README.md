@@ -99,7 +99,6 @@ After the raw data was properly formatted and accessible, I cleaned and transfor
 **Rating Source Bias**: Overall rating values come from FIFA video game ratings, which may not perfectly align with real-world performance.
 
 ### Bias Mitigation
-describe how biases can be handled/quantified/accounted for in analysis
 
 The above biases can be accounted for in analysis in several ways. Acknowledging the geographic limitations of the dataset and being transparent about its applications solely to the European leagues is one way of accounting for bias. Future work could include expanding into more leagues across the world, and gathering more recent data to account for the temporal bias.
 
