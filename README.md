@@ -72,9 +72,9 @@ Predicting declines in player performance has practical applications in sports a
 
 ## Data Creation
 
-The raw data was sourced from the European Soccer Database on Kaggle, which contains an SQLite database with 11+ tables. The extraction process involved downloading the dataset from Kaggle, and extracting relevant tables (Player, Match, Player_Attributes, Team, League) using Python's sqlite3 library. The next step required exporting the raw tables as CSV files to `data-creation-code/raw/`, and then loading the parquet files into DuckDB for relational modeling.
+The raw data was sourced from the European Soccer Database on Kaggle, which contains an SQLite database with 11+ tables. The extraction process involved downloading the dataset from Kaggle, and extracting relevant tables (Player, Match, Player_Attributes, Team, League) using Python's sqlite3 library. The next step required exporting the raw tables as CSV and Parquet files to `data-creation-code/raw/`, uploading all 8 files to UVA OneDrive, and then loading the parquet files into DuckDB for relational modeling.
 
-After the raw data was properly formatted and accessible, I cleaned and transformed the data into four usable analytical tables: players, matches, player_match_stats, and performance. Then, in solution-pipeline.ipynb I used these four tables to construct a dataframe to be used in the machine learning pipeline. This `analytics_df` object contained information from all four tables to provide an overview of player physical attributes, technical skills, career consistency, performance, and match-level success. The final dataframe served as the analytical fact table.
+After the raw data was properly formatted and accessible, I cleaned and transformed the data into four usable analytical tables: players, matches, player_match_stats, and performance. Then, in solution-pipeline.ipynb I used these four tables to construct a dataframe to be used in the machine learning pipeline. This `analytics_df` object contained information from all four tables and some calculated statistics to provide an overview of player physical attributes, technical skills, career consistency, performance, and match-level success. The final dataframe served as the analytical fact table.
 
 
 ### Code
@@ -96,7 +96,7 @@ After the raw data was properly formatted and accessible, I cleaned and transfor
 
 **Position Bias**: The performance_score weights attributes equally across positions, but a goalkeeper's performance is evaluated differently than a striker's.
 
-**Rating Source Bias**: Overall rating values come from FIFA video game ratings, which may not perfectly align with real-world performance.
+**Rating Source Bias**: Player ratings introduce bias into the dataset as they transform subjective, multi-faceted human performance into a simplified single value. These abstractions fail to capture nuances in a players' profile, and do not perfectly align with real-world performance.
 
 ### Bias Mitigation
 
