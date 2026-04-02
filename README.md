@@ -7,7 +7,7 @@ This repository contains the complete data pipeline and analysis for predicting 
 | --- | --- |
 | Name | Crystal McEnhimer |
 | NetID | vcx4ka |
-| DOI | [Link]() |
+| DOI | [![DOI](https://zenodo.org/badge/1189840726.svg)](https://doi.org/10.5281/zenodo.19378548) |
 | Press Release | [PRESS-RELEASE.md](PRESS-RELEASE.md) |
 | Data | [UVA OneDrive Data Folder](https://myuva-my.sharepoint.com/:f:/g/personal/vcx4ka_virginia_edu/IgDkm3bSO4ddRrfrgJUvnP2FARFKLKoxtnxQnPdcKKCrPbU?e=kzwiJS) |
 | Pipeline | [solution-pipeline.ipynb](solution-pipeline.ipynb) [solution-pipeline.md](solution-pipeline.md) |
